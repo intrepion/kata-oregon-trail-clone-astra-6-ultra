@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="720" y1="0" x2="720" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7D7B9"/>
+      <stop offset=".65" stop-color="#F0DFC0"/>
+      <stop offset="1" stop-color="#F3E9CE"/>
+    </linearGradient>
+    <linearGradient id="river" x1="945" y1="329" x2="1098" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#829C8D"/>
+      <stop offset="1" stop-color="#6B908A"/>
+    </linearGradient>
+    <linearGradient id="prairie" x1="359" y1="325" x2="488" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C9AB6B"/>
+      <stop offset="1" stop-color="#C39853"/>
+    </linearGradient>
+    <linearGradient id="canvas" x1="453" y1="321" x2="453" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6D9"/>
+      <stop offset="1" stop-color="#DCD0AA"/>
+    </linearGradient>
+    <filter id="paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".61" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".035"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <symbol id="pine" viewBox="0 0 36 88">
+      <path d="M16.5 57H20V88H16.5Z" fill="#3E5340"/>
+      <path d="M18 0 6 24H12L2 42H10L0 64H36L27 43H34L24 24H29Z" fill="currentColor"/>
+      <path d="M18 4 18 64H36L27 43H34L24 24H29Z" fill="#203F35" opacity=".13"/>
+    </symbol>
+    <symbol id="grass" viewBox="0 0 25 18">
+      <path d="m12 18-3-12m4 12 4-16m-5 16-9-6m11 6 9-8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+    </symbol>
+    <clipPath id="bounds"><path d="M0 0H1440V560H0Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <path d="M0 0H1440V560H0Z" fill="url(#sky)"/>
+    <circle cx="1119" cy="115" r="64" fill="#F5EBCB" opacity=".25"/>
+    <circle cx="1119" cy="115" r="48" fill="#FBF2D6"/>
+    <path d="M43 112C87 97 125 113 150 113 176 112 183 106 201 109 227 114 249 110 271 121H43Z" fill="#F6EACD" opacity=".58"/>
+    <path d="M663 87C691 77 706 88 729 87 750 85 762 83 782 90 810 87 837 91 856 99H637Z" fill="#F6EACD" opacity=".43"/>
+    <path d="M1296 164C1322 155 1342 158 1361 163 1386 157 1411 160 1458 170H1275Z" fill="#F6EACD" opacity=".65"/>
+    <path d="m880 136 7-4 8 4m24 16 5-3 6 3m-111-19 5-3 6 3" stroke="#9E9579" stroke-width="1.4" stroke-linecap="round" opacity=".72"/>
+
+    <!-- Weather-softened ridges on the far horizon. -->
+    <path d="M-42 293 28 253 91 251 143 213 176 225 209 198 246 225 288 240 353 242 404 270 464 258 527 284 578 265 625 240 686 227 727 236 792 200 846 229 906 229 947 252 1007 245 1045 206 1076 210 1113 186 1151 208 1175 206 1239 239 1286 225 1334 256 1378 242 1482 290V398H-42Z" fill="#C5B994"/>
+    <path d="m688 228 38 9 66-37 53 28-27-3-26-13-12 23-31 9-30-1-23 15-36 3Z" fill="#E5D5B1" opacity=".7"/>
+    <path d="m1030 231 16-25 30 4 37-24 38 22 24-2 48 28-58-11-21 1-32-26-29 22-24-2-13 16Z" fill="#EDDCB8" opacity=".72"/>
+    <path d="m79 259 66-46 31 12 34-27 35 26 44 16-29 1-44-24-13-1-25 23-28-10-37 31Z" fill="#E6D3AE" opacity=".5"/>
+
+    <!-- Warm mountain faces, cut with long planes of light and shadow. -->
+    <path d="M-22 256 37 236 77 247 117 221 157 227 204 208 232 232 269 238 300 269 333 267 372 292 429 312 483 333 554 352H-22Z" fill="#BB9468"/>
+    <path d="m0 270 37-34 39 11 41-26 40 6 47-19-20 45-48 11-34 42-48-7-17 29H0Z" fill="#CBA773"/>
+    <path d="m204 208 28 24 36 6 32 31 33-2 39 25 57 20-60-5-30-18-39 9-36-33-37-9Z" fill="#A57F5D"/>
+    <path d="m156 227-20 37-34 42 32-20 36-11 15-22 18-44Z" fill="#D6B27A"/>
+    <path d="M843 338 903 306 946 303 988 279 1031 279 1061 258 1106 271 1156 245 1193 225 1220 220 1242 197 1270 202 1300 170 1331 181 1366 174 1404 198 1458 180V375Z" fill="#AC8867"/>
+    <path d="m1110 270 46-25 37-20 27-5 22-23 28 5 30-32 31 11 35-7 38 24 54-18-26 55-43 18-41-3-49 25-55-2-39 14-54-2-42 19-54 1Z" fill="#BC9A73"/>
+    <path d="m1270 202 30-32 31 11 35-7-17 31-28 17-4 29-26 7-17 29-47 18-51 1 39-34 40-15Z" fill="#9E7E60" opacity=".7"/>
+    <path d="m1300 170-9 56-19 16-17 29 19-14 17-19 15-5 15-31 10-21Z" fill="#D2AC78"/>
+    <path d="m1242 197-22 23-27 5-36 31 32-14 20-1 13-9 19 1 14-14 15-17Z" fill="#D0AD7C"/>
+    <path d="m946 303 42-24 43 0 30-21 45 13-26 8-20-8-31 24-41-1-27 18Z" fill="#D1B082" opacity=".5"/>
+
+    <!-- Sage foothills and the river valley. -->
+    <path d="M0 348C79 320 111 306 187 319 268 334 290 315 353 322 423 330 449 349 513 342 581 336 615 313 679 320 750 327 768 312 818 321 859 327 902 316 940 322 1009 331 1025 303 1086 312 1154 322 1191 302 1230 300 1313 297 1360 316 1440 294V428H0Z" fill="#9CA075"/>
+    <path d="M0 370C114 335 176 350 254 362 348 376 393 352 459 370 543 393 585 353 671 350 746 347 777 337 836 340 905 344 937 332 988 346 1029 357 1082 328 1136 338 1202 351 1273 324 1348 341L1440 326V453H0Z" fill="#8E986A"/>
+    <path d="M1440 349C1344 342 1297 365 1212 358 1134 352 1096 364 1056 370 1000 378 957 362 916 358L862 346 821 350 781 351C669 339 659 370 558 374 463 378 438 397 346 383 241 367 203 389 94 377L0 397V560H1440Z" fill="url(#prairie)"/>
+
+    <!-- Water appears first as a silver thread, then opens toward the viewer. -->
+    <path d="M861 339C883 348 930 345 946 355 963 366 911 378 915 390 920 404 1016 405 1054 430 1098 459 1008 466 1013 496 1017 521 1110 538 1128 560H1370C1309 515 1219 495 1179 462 1139 431 1136 411 1079 397 1021 382 970 389 960 377 950 367 1009 355 983 346 961 337 900 344 874 338Z" fill="#DDCEA0"/>
+    <path d="M862 340C887 350 935 347 950 357 963 366 923 379 930 390 940 405 1025 408 1065 433 1110 461 1028 472 1041 498 1051 520 1142 539 1159 560H1332C1273 516 1193 496 1160 462 1132 433 1126 416 1075 402 1020 388 964 392 949 379 938 368 996 355 978 348 957 341 901 347 872 340Z" fill="url(#river)"/>
+    <path d="M881 344C907 351 948 351 952 360 956 370 935 376 939 384M959 396C1008 409 1058 416 1080 438 1101 459 1054 477 1065 494 1080 517 1171 542 1184 560" stroke="#C9D2B6" stroke-width="2" opacity=".6"/>
+    <path d="m1077 414 29 7m-43 21 30 2m-56 39 44 5m39-47 31 7m-55 56 47 13m-17 26 54 15m-99-20 24 7m102-35 28 11m-31-22 13 4" stroke="#B4C2A8" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+    <path d="m946 356 20 2m-28 22 7 2m56 23 23 3m-22 4 9 1m155 116 35 10m-35-22 26 10m-4-51 19 7" stroke="#E4E4C7" stroke-width="1.3" stroke-linecap="round" opacity=".65"/>
+    <path d="M1440 396C1356 383 1274 416 1209 417 1179 418 1159 410 1119 410 1153 427 1155 447 1182 465 1245 473 1333 435 1440 461Z" fill="#9E9D68"/>
+    <path d="M1440 476C1348 447 1272 481 1212 491L1303 539 1333 560H1440Z" fill="#7D895B"/>
+
+    <!-- The wagon road winds through the golden, open prairie. -->
+    <path d="M807 345C765 352 751 366 706 371 634 379 620 387 584 399 543 412 505 417 464 447 423 479 359 522 337 560H191C250 516 327 476 394 436 449 403 508 404 563 389 616 375 640 372 698 366 746 361 765 349 807 345Z" fill="#E0C48B"/>
+    <path d="M799 347C760 355 741 367 701 369 644 373 623 381 574 394 524 408 477 410 430 443 365 489 282 534 261 560" stroke="#B48F54" stroke-width="2" opacity=".45"/>
+    <path d="M789 351C754 361 738 371 702 373 647 378 621 387 584 398 531 414 485 419 444 449 379 496 300 539 284 560" stroke="#B48F54" stroke-width="2" opacity=".34"/>
+    <path d="M0 427C66 418 128 433 186 425 234 419 260 404 305 413 332 419 350 417 376 417 325 438 291 456 246 480 153 476 89 471 0 491Z" fill="#B6A264"/>
+    <path d="M0 500C64 483 122 493 185 488L239 483 195 516 155 560H0Z" fill="#A59C63"/>
+    <path d="M521 477C599 448 691 448 743 429 800 408 873 416 933 405 954 412 973 419 1005 424 947 421 914 438 865 444 801 452 770 471 698 475 626 478 610 493 555 507Z" fill="#BD9D5D"/>
+    <path d="M550 554C629 514 670 542 739 509 799 481 868 486 923 470 961 461 997 468 1029 466 999 483 1005 501 1025 518 957 507 912 529 847 528 764 526 729 552 689 560H538Z" fill="#B09558" opacity=".6"/>
+
+    <!-- Pine groups share an intentionally restrained field-guide silhouette. -->
+    <g color="#687C57">
+      <use href="#pine" x="650" y="300" width="15" height="37"/>
+      <use href="#pine" x="666" y="297" width="17" height="42"/>
+      <use href="#pine" x="681" y="311" width="12" height="30"/>
+      <use href="#pine" x="716" y="314" width="12" height="28"/>
+      <use href="#pine" x="728" y="306" width="15" height="36"/>
+      <use href="#pine" x="1140" y="291" width="15" height="36"/>
+      <use href="#pine" x="1152" y="279" width="20" height="49"/>
+      <use href="#pine" x="1170" y="291" width="17" height="43"/>
+      <use href="#pine" x="1191" y="298" width="12" height="30"/>
+      <use href="#pine" x="1018" y="310" width="10" height="25"/>
+      <use href="#pine" x="1030" y="302" width="14" height="33"/>
+    </g>
+    <g color="#4F6B4C">
+      <use href="#pine" x="47" y="294" width="27" height="69"/>
+      <use href="#pine" x="70" y="276" width="36" height="88"/>
+      <use href="#pine" x="95" y="306" width="25" height="61"/>
+      <use href="#pine" x="112" y="292" width="32" height="79"/>
+      <use href="#pine" x="140" y="321" width="22" height="53"/>
+      <use href="#pine" x="238" y="321" width="17" height="43"/>
+      <use href="#pine" x="252" y="314" width="22" height="54"/>
+      <use href="#pine" x="270" y="331" width="17" height="42"/>
+      <use href="#pine" x="1293" y="285" width="33" height="80"/>
+      <use href="#pine" x="1320" y="276" width="40" height="97"/>
+      <use href="#pine" x="1350" y="307" width="29" height="71"/>
+      <use href="#pine" x="1372" y="290" width="39" height="95"/>
+      <use href="#pine" x="1405" y="311" width="31" height="76"/>
+    </g>
+    <g color="#3E6046">
+      <use href="#pine" x="1129" y="342" width="22" height="55"/>
+      <use href="#pine" x="1148" y="325" width="31" height="76"/>
+      <use href="#pine" x="1174" y="346" width="22" height="55"/>
+      <use href="#pine" x="1200" y="338" width="29" height="72"/>
+      <use href="#pine" x="1219" y="358" width="22" height="52"/>
+    </g>
+    <g color="#294C3B">
+      <use href="#pine" x="-42" y="312" width="98" height="244"/>
+      <use href="#pine" x="22" y="370" width="66" height="163"/>
+      <use href="#pine" x="84" y="417" width="44" height="107"/>
+      <use href="#pine" x="1401" y="354" width="81" height="198"/>
+      <use href="#pine" x="1358" y="408" width="53" height="130"/>
+      <use href="#pine" x="1319" y="447" width="38" height="92"/>
+    </g>
+
+    <!-- Low stones and loose tufts give the prairie a human scale. -->
+    <g fill="#998C60">
+      <path d="m333 376 5-4 9 1 6 5h-22Zm373 25 8-6 11 2 4 7h-25Zm194 85 8-6 12 2 5 8h-30ZM1088 384l7-6 9 2 6 8h-25ZM177 445l7-8 13 1 9 10h-32Z"/>
+      <path d="m597 532 10-8 20 3 5 10h-39Zm-86-96 5-3 9 1 3 4h-19Zm-333 107 5-4 10 1 3 5h-20Z" opacity=".7"/>
+    </g>
+    <g color="#938850" opacity=".8">
+      <use href="#grass" x="200" y="391" width="15" height="11"/>
+      <use href="#grass" x="348" y="394" width="13" height="10"/>
+      <use href="#grass" x="317" y="448" width="21" height="15"/>
+      <use href="#grass" x="647" y="416" width="17" height="12"/>
+      <use href="#grass" x="595" y="456" width="21" height="15"/>
+      <use href="#grass" x="785" y="392" width="13" height="10"/>
+      <use href="#grass" x="837" y="466" width="23" height="17"/>
+      <use href="#grass" x="726" y="502" width="25" height="18"/>
+      <use href="#grass" x="1001" y="442" width="16" height="12"/>
+      <use href="#grass" x="1200" y="436" width="17" height="12"/>
+      <use href="#grass" x="1254" y="450" width="19" height="14"/>
+      <use href="#grass" x="492" y="535" width="28" height="20"/>
+      <use href="#grass" x="384" y="512" width="24" height="18"/>
+      <use href="#grass" x="890" y="540" width="32" height="23"/>
+      <use href="#grass" x="144" y="505" width="25" height="18"/>
+      <use href="#grass" x="965" y="514" width="22" height="16"/>
+    </g>
+    <g stroke="#DDC087" stroke-width="2" stroke-linecap="round" opacity=".65">
+      <path d="m251 397 8-1m28-8 12 1m294 22 9-1m111 30 17-2m-337-53 10 1m-77 106 8-4m388-34 12-1m68-15 9-2m-118 86 10-2m-202-26 15-3m-287-56 10 1m760 72 16 2m-621 39 14-6m554-145 10 1m-503 118 12-3"/>
+    </g>
+
+    <!-- A hand-built prairie schooner, its canvas catching the afternoon light. -->
+    <ellipse cx="481" cy="404" rx="96" ry="8" fill="#87764B" opacity=".2"/>
+    <g stroke-linejoin="round">
+      <path d="m499 383 62 8" stroke="#71583B" stroke-width="3" stroke-linecap="round"/>
+      <path d="m512 383 44 3" stroke="#9B7848" stroke-width="2"/>
+      <path d="M417 373H499L501 389H422Z" fill="#9C6F3F"/>
+      <path d="M417 373H498V379H418Z" fill="#C39452"/>
+      <path d="M422 380H497M425 385H499" stroke="#6F5537" stroke-width="1.5"/>
+      <path d="M429 373V388M487 373V389" stroke="#D2AC6C" stroke-width="2"/>
+      <path d="M420 374V346C420 330 431 321 446 321H477C492 321 502 331 502 348V374Z" fill="url(#canvas)" stroke="#AB9266" stroke-width="1.4"/>
+      <path d="M477 321C491 321 502 331 502 348V374H476V346C476 331 467 323 459 321Z" fill="#CFC09A"/>
+      <path d="M484 326C493 329 498 337 498 349V370H480V348C480 338 480 330 484 326Z" fill="#6D654C"/>
+      <path d="M484 326C481 338 483 355 480 369L486 366 488 331Z" fill="#DCD0AA"/>
+      <path d="M496 337C493 345 495 357 498 368V349Z" fill="#EFE3BE"/>
+      <path d="M429 373V346C429 333 436 323 446 321M453 374V346C453 332 449 324 445 322M475 374V346C475 334 470 326 464 322" stroke="#B8A27B" stroke-width="1.3" opacity=".8"/>
+      <path d="M424 350C438 347 455 350 473 347M423 360C437 357 455 361 473 358" stroke="#FFF8DF" stroke-width="1.2" opacity=".5"/>
+      <path d="m421 371 54 1" stroke="#EDE2BD" stroke-width="3"/>
+      <path d="M425 374V378M435 374V379M445 374V379M456 374V379M466 374V379" stroke="#786749" stroke-width="1"/>
+      <path d="m498 376 12 1 1 6-11 1" fill="#8B633E" stroke="#725336" stroke-width="1.5"/>
+      <path d="m507 371 1 7h-8l-1-6" fill="#50624A"/>
+      <path d="M500 366C500 363 501 361 504 361 507 361 508 364 507 367L508 372H500Z" fill="#A66E46"/>
+      <path d="M499 363h12m-10-2 1-4h5l2 5" stroke="#574F39" stroke-width="2" stroke-linecap="round"/>
+      <path d="m507 371 6 3 8 4" stroke="#B59A6C" stroke-width="2" stroke-linecap="round"/>
+      <path d="m515 375 41 7" stroke="#6C5E40" stroke-width=".8"/>
+      <g stroke="#4C4935">
+        <circle cx="434" cy="391" r="15" fill="#705338" stroke-width="3"/>
+        <circle cx="434" cy="391" r="11.5" fill="#C5A365" stroke="#BFA471" stroke-width="1.5"/>
+        <path d="M434 379V403M422 391H446M425.5 382.5l17 17m0-17-17 17" stroke-width="1.8"/>
+        <circle cx="434" cy="391" r="3" fill="#694E33" stroke-width="1"/>
+        <circle cx="490" cy="391" r="14" fill="#705338" stroke-width="3"/>
+        <circle cx="490" cy="391" r="10.5" fill="#C5A365" stroke="#BFA471" stroke-width="1.5"/>
+        <path d="M490 380V402M479 391H501M482 383l16 16m0-16-16 16" stroke-width="1.8"/>
+        <circle cx="490" cy="391" r="3" fill="#694E33" stroke-width="1"/>
+      </g>
+      <!-- The ox team, with the farther animal slightly higher on the track. -->
+      <g fill="#705B3E" stroke="#665137" stroke-width="1.3">
+        <path d="M541 375C543 371 560 371 565 375L570 380 578 380 580 386 573 388 566 384 544 384 539 380Z"/>
+        <path d="m543 382-1 13h3l3-12m13 0 3 11h3l-1-12"/>
+        <path d="m541 375-6-1-1 7" fill="none"/>
+      </g>
+      <g fill="#A88655" stroke="#755B3B" stroke-width="1.4">
+        <path d="M535 384C540 379 559 379 565 384L570 388 579 389 579 396 574 398 566 392 541 394 535 390Z"/>
+        <path d="m541 392-2 13h4l4-13m14 0 4 12h4l-4-14"/>
+        <path d="m537 385-6-3-3 8" fill="none" stroke-linecap="round"/>
+      </g>
+      <path d="m567 386 2-7 3 2m5 8 5-4-1-4m-9-1 3-7 3 2m-12 17 4-10" stroke="#DFCE9E" stroke-width="2" stroke-linecap="round"/>
+      <path d="m562 378 1 16m-1-11 11 1" stroke="#695336" stroke-width="2.5"/>
+      <circle cx="576" cy="392" r=".8" fill="#332F24"/>
+    </g>
+    <path d="M0 0H1440V560H0Z" fill="transparent" filter="url(#paper)" opacity=".8"/>
+  </g>
+</svg>
