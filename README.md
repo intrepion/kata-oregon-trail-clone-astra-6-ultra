@@ -53,3 +53,7 @@ The setting is fictionalized and the route simplified. The game is an independen
 ## License
 
 Project code and original artwork are provided under the [MIT license](LICENSE). Bundled third-party fonts retain their own licenses.
+
+## Play online
+
+[Play the hosted game](https://intrepion.github.io/kata-oregon-trail-clone-astra-6-ultra/)
