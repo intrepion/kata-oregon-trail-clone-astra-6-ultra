@@ -57,3 +57,7 @@ Project code and original artwork are provided under the [MIT license](LICENSE).
 ## Play online
 
 [Play the hosted game](https://intrepion.github.io/kata-oregon-trail-clone-astra-6-ultra/)
+
+## Arcade metadata
+
+See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
