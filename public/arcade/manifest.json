@@ -1,6 +1,63 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-oregon-trail-clone-astra-6-ultra",
   "playUrl": "https://intrepion.github.io/kata-oregon-trail-clone-astra-6-ultra/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261102-01.jpg",
+      "sha256": "df3aa8ceed324ded2e71d56a627f72abeb5334bdc0a89c94a2e2635745daddeb",
+      "alt": "Westward gameplay, view 1",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
+        "sourceSha256": "f2b59438f5def169a77fcff331b587b1d04c96a00cbd61538123a2e801f22eaa",
+        "captureCommit": "922486c76fec9d0415def2b9d719d94554d8f018",
+        "workflowRunId": "41424388474",
+        "inputHashes": {
+          "index.html": "938c7d8e27fcb64a31d8a9d283763d54c3c4320e4c4fcb5b95bf9826a0282330",
+          "trail-landscape.svg": "4f8384c7b635d3460c83b51625908eff08bd7445f1c1f2d7b7eceea34abf9c0d",
+          "favicon.svg": "67c934f259d7c52f741469cebe592dce63ba810c23798347dfc1ace011a6ee36",
+          "assets/dm-sans-latin-ext-wght-normal-BOFOeGcA.woff2": "a5d38fe99f930275684999b462c7123faa063d9e44e73b4b241723d884aa0f49",
+          "assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+          "assets/dm-serif-display-latin-400-italic-BgxzcTJK.woff": "10f9e1ab0365175c16e8752acea5cb0228d92d2131378d5ee2849ff57baa84d3",
+          "assets/dm-serif-display-latin-400-italic-DpcbibHm.woff2": "ed8b291611e32fa2d2900488dd48fc95faf0957b2ef7ddf1527e8d21dd9cf2df",
+          "assets/dm-serif-display-latin-400-normal-C5_t9oOD.woff2": "fdf61e20fd2c0108e0ea28da4daca0035205b4b7fc031a3974b865b704de160a",
+          "assets/dm-serif-display-latin-400-normal-_kVFYEpx.woff": "1b81107f3d9a44a99991606475201ac3b97033e4035df2f3b0858433f663cfda",
+          "assets/index-BDTfG-NF.js": "77187501cb957cfdb518c426cbb1a4cf06a301e4afb515e928448e9876a3aafc",
+          "assets/index-DDMEQYzs.css": "df62b5259114740aec7699f7a7647da886fc60dc3dcf99cfee814a01d919dce8"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "df7f8128e1e9c80bf3b553bb19afc57126ce9b701e96f697fa3a7920d78b67af"
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-02.jpg",
+      "sha256": "73d472e7e170290fbaf636240ad7585026d5f6e360a37c36ea332cbd5afde3cb",
+      "alt": "Westward gameplay, view 2",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
+        "sourceSha256": "f1cae4b2c28bccbb63bf1f263161b6cb01cca6e0f5a02a3339351887476474fd",
+        "captureCommit": "922486c76fec9d0415def2b9d719d94554d8f018",
+        "workflowRunId": "41424388474",
+        "inputHashes": {
+          "index.html": "938c7d8e27fcb64a31d8a9d283763d54c3c4320e4c4fcb5b95bf9826a0282330",
+          "trail-landscape.svg": "4f8384c7b635d3460c83b51625908eff08bd7445f1c1f2d7b7eceea34abf9c0d",
+          "favicon.svg": "67c934f259d7c52f741469cebe592dce63ba810c23798347dfc1ace011a6ee36",
+          "assets/dm-sans-latin-ext-wght-normal-BOFOeGcA.woff2": "a5d38fe99f930275684999b462c7123faa063d9e44e73b4b241723d884aa0f49",
+          "assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+          "assets/dm-serif-display-latin-400-italic-BgxzcTJK.woff": "10f9e1ab0365175c16e8752acea5cb0228d92d2131378d5ee2849ff57baa84d3",
+          "assets/dm-serif-display-latin-400-italic-DpcbibHm.woff2": "ed8b291611e32fa2d2900488dd48fc95faf0957b2ef7ddf1527e8d21dd9cf2df",
+          "assets/dm-serif-display-latin-400-normal-C5_t9oOD.woff2": "fdf61e20fd2c0108e0ea28da4daca0035205b4b7fc031a3974b865b704de160a",
+          "assets/dm-serif-display-latin-400-normal-_kVFYEpx.woff": "1b81107f3d9a44a99991606475201ac3b97033e4035df2f3b0858433f663cfda",
+          "assets/index-BDTfG-NF.js": "77187501cb957cfdb518c426cbb1a4cf06a301e4afb515e928448e9876a3aafc",
+          "assets/index-DDMEQYzs.css": "df62b5259114740aec7699f7a7647da886fc60dc3dcf99cfee814a01d919dce8"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "df7f8128e1e9c80bf3b553bb19afc57126ce9b701e96f697fa3a7920d78b67af"
+      }
+    }
+  ]
 }
